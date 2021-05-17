@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'Indie Flower', cursive;
+}
+
+.navbar { 
+    background-color: white;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, .05);
+	
+}
+
+.nav-link {
+	color: green
+}
+
+.nav-item .nav-link strong {
+    font-size: 20px;
+}
+
+#hero {
+	background-image: url("../imagenes/veganos 4.png");
+	background-size: cover;
+	padding-top: 90px;
+	min-height: 700px;
+	color: white;
+}#hero .container-fluid .text-center {
+    font-size: 60px;
+    text-decoration: none;
+}
+#hero .container-fluid .text-center {
+    font-size: 100px;
+}
+#hero .container-fluid .center {
+    font-size: 30px;
+}
+#hero .container-fluid {
+    margin-top: 150px;
+}
+
+
+.center {
+    text-align: center;
+}
+.carousel.col-xl-12.col-9.col-lg-12.col-md-12 {
+    margin-top: 0px;
+}
+.carousel2 {
+}
+.carousel2 .container-fluid {
+    margin-top: 50px;
+    margin-left: 420px;
+}
+.carousel.col-xl-12.col-9.col-lg-12.col-md-12 .container-fluid {
+    margin-top: 0px;
+}
+.carousel.col-xl-12.col-9.col-lg-12.col-md-12 {
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+	h1 { font-size: 40px; line-height: normal}
+	hero { background-image: 315px;}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+
+@media (min-width: 1200px) { }
